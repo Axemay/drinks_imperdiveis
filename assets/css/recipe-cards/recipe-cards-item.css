@@ -1,0 +1,15 @@
+.recipe-cards-item{
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.recipe-img-card{
+    /* height: 11rem; */
+    /* height: 20% */
+}
+
+.recipe-card-description{
+
+    padding: 0 2rem;
+
+}

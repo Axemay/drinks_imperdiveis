@@ -1,0 +1,11 @@
+.recipe-cards{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 6.56rem;
+    width: 100%;
+    background: #f1f1f1;
+    margin-top: 3.5rem;
+    padding: 6.20rem 0;
+}

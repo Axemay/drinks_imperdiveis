@@ -1,0 +1,35 @@
+.main-text {
+    font-family: 'Roboto', sans-serif;
+    color: #8C8888;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 2.06rem;
+    margin: 0 2.5rem;
+}
+
+.main-text.-recipe{
+    color: #000;
+    font-size: 1.18rem;
+    line-height: 1.37rem;
+    text-align: left;
+    margin: 0;
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+
+    .main-text {
+        
+        text-align: justify;
+        font-size: 1.4rem;
+   
+    }
+
+    .main-text.-recipe{ 
+        margin: 0;
+    }
+
+
+}

@@ -1,0 +1,20 @@
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5.62rem;
+    margin-bottom: 3rem;
+}
+
+
+.main-section.-banner{
+    height: 468px;
+    width: 100%;
+    background-image: url(/assets/img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
