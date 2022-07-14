@@ -25,6 +25,11 @@
 }
 
 
+.main-title.-third.-autoral{
+    color: #8D0606;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
 
 @media only screen and (max-width: 500px){
     .main-title {
