@@ -13,6 +13,14 @@
     text-shadow: none;
 }
 
+.main-title.second.-modal{
+
+    justify-content: baseline;
+
+}
+
+
+
 
 .main-title.-third{
     font-family: 'Roboto', sans-serif;
@@ -23,6 +31,15 @@
     text-align: left;
     margin-bottom: 1rem;
 }
+
+.main-title.-third.-modal{
+    padding: 15px 0;
+    
+}
+
+.main-title.-third.-modal{
+}
+
 
 
 .main-title.-third.-autoral{

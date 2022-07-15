@@ -11,9 +11,15 @@
 }
 
 .recipe-img-card{
-    /* height: 11rem; */
-    /* height: 20% */
+    cursor: pointer;
+    transition: 300ms;
 }
+
+.recipe-img-card:hover{
+    transform: scale(1.2);
+}
+
+
 
 .recipe-card-description{
 
@@ -28,12 +34,13 @@
     border-radius: 0.30rem;
     transition: 300ms;
     cursor: pointer;    
+    border: none;
     
 }
 
 .recipe-button:hover{
     background: #d65d5d;
-    padding: 1.1rem 4.5rem ;
+    padding: 1.1rem 4.4rem ;
     /* transform: scale(1.06); */
 }
 
