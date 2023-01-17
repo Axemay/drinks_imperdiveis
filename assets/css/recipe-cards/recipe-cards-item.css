@@ -2,7 +2,7 @@
     background: #fff;
     box-shadow: 0.4rem 0.3rem #8D0606;
     transition: 300ms;
-    
+    border-radius: 5px;
     /* #aca6a6; */
 }
 
@@ -10,8 +10,9 @@
     box-shadow: 0.6rem 0.6rem  #e28383;
 }
 
-.recipe-img-card{
- 
+.recipe-img{
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
 }
 
 .recipe-cards-item.-autoral:hover{
