@@ -1,291 +1,328 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        
-        <link rel="stylesheet" href="./assets/css/normalize.css"/>
-        <link rel="stylesheet" href="./assets/css/reset.css"/>
-        <link rel="stylesheet" href="./assets/css/main-header.css"/>
-        <link rel="stylesheet" href="./assets/css/main-navigation/nav-list.css"/>
-        <link rel="stylesheet" href="./assets/css/main-navigation/nav-item.css"/>
-        <link rel="stylesheet" href="./assets/css/main-navigation/nav-link.css"/>
-        <link rel="stylesheet" href="./assets/css/main-section.css"/>
-        <link rel="stylesheet" href="./assets/css/main-title/main-title.css"/>
-        <link rel="stylesheet" href="./assets/css/main-text/main-text.css"/>
-        <link rel="stylesheet" href="./assets/css/recipe-cards/recipe-cards.css"/>
-        <link rel="stylesheet" href="./assets/css/recipe-cards/recipe-cards-item.css"/>
-        <link rel="stylesheet" href="./assets/css/modal/modal.css"/>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-        <title>Drinks Imperdíveis</title>
-    </head>
-    <body>
-        <header class="main-header">
-            <img class="logo" alt="Fruta e Fruto" src="./assets/img/logo_drinks_pequeno.png">
-            <nav class="main-navigation">
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link active"  href="#" >Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Clássicos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Autorais</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Comunidade</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="main-section -banner">
-                <!-- <img class="main-banner" src="./assets/img/banner.png"> -->
-                <h1 class="main-title">Receitas de drinks imperdíveis</h1>
-    
-            </section>
-            <section class="main-section -grey">
-                <h2 class="main-title -second">Drinks clássicos</h2>
-                <p class="main-text">Se você gosta dos clássicos, temos as melhores receitas para te agradar.</p>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main-header.css" />
+    <link rel="stylesheet" href="./assets/css/main-navigation/nav-list.css" />
+    <link rel="stylesheet" href="./assets/css/main-navigation/nav-item.css" />
+    <link rel="stylesheet" href="./assets/css/main-navigation/nav-link.css" />
+    <link rel="stylesheet" href="./assets/css/main-section.css" />
+    <link rel="stylesheet" href="./assets/css/main-title/main-title.css" />
+    <link rel="stylesheet" href="./assets/css/main-text/main-text.css" />
+    <link rel="stylesheet" href="./assets/css/recipe-cards/recipe-cards.css" />
+    <link rel="stylesheet" href="./assets/css/recipe-cards/recipe-cards-item.css" />
+    <link rel="stylesheet" href="./assets/css/modal/modal.css" />
 
-                <div class="recipe-cards">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
 
-                    <div class="recipe-cards-item">
-                        <div class="recipe-img-card">
-                            <img src="./assets/img/moscow_mule.png" class="recipe-img">
-                        </div>
-                        <div class="recipe-card-description">
+    <title>Drinks Imperdíveis</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <img class="logo" alt="Fruta e Fruto" src="./assets/img/logo_drinks_pequeno.png">
+        <nav class="main-navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Clássicos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Autorais</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Comunidade</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section -banner">
+            <!-- <img class="main-banner" src="./assets/img/banner.png"> -->
+            <h1 class="main-title">Receitas de drinks imperdíveis</h1>
+
+        </section>
+        <section class="main-section -grey">
+            <h2 class="main-title -second">Drinks clássicos</h2>
+            <p class="main-text">Se você gosta dos clássicos, experimente uma de nossas receitas.</p>
+
+            <div class="recipe-cards">
+
+                <div class="recipe-cards-item">
+                    <div class="recipe-img-card">
+                        <img src="./assets/img/moscow_mule.png" class="recipe-img">
+                    </div>
+                    <div class="recipe-card-description">
                         <h3 class="main-title -third">Moscow Mule</h3>
-                            <p class="main-text -recipe">Base: vodka</p>
-                            <p class="main-text -recipe">Dificuldade: médio</p>
-                            <button id="recipeMoscow" class="recipe-button">Ver receita</button>
-                        </div>
+                        <p class="main-text -recipe">Base: vodka</p>
+                        <p class="main-text -recipe">Dificuldade: médio</p>
+                        <button id="recipeMoscow" class="recipe-button">Ver receita</button>
                     </div>
+                </div>
 
-                    <div class="recipe-cards-item">
-                        <div class="recipe-img-card">
-                            <img src="./assets/img/mojito.png" class="recipe-img">
-                        </div>
-                        <div class="recipe-card-description">
+                <div class="recipe-cards-item">
+                    <div class="recipe-img-card">
+                        <img src="./assets/img/mojito.png" class="recipe-img">
+                    </div>
+                    <div class="recipe-card-description">
                         <h3 class="main-title -third">Mojito</h3>
-                            <p class="main-text -recipe">Base: rum</p>
-                            <p class="main-text -recipe">Dificuldade: fácil</p>
-                            <button id="recipeMojito" class="recipe-button">Ver receita</button>
-                        </div>
+                        <p class="main-text -recipe">Base: rum</p>
+                        <p class="main-text -recipe">Dificuldade: fácil</p>
+                        <button id="recipeMojito" class="recipe-button">Ver receita</button>
                     </div>
+                </div>
 
-                    <div class="recipe-cards-item">
-                        <div class="recipe-img-card">
-                            <img src="./assets/img/sex_beach.png" class="recipe-img">
-                        </div>
-                        <div class="recipe-card-description">
+                <div class="recipe-cards-item">
+                    <div class="recipe-img-card">
+                        <img src="./assets/img/sex_beach.png" class="recipe-img">
+                    </div>
+                    <div class="recipe-card-description">
                         <h3 class="main-title -third">Sex On The Beach</h3>
-                            <p class="main-text -recipe">Base: vodka</p>
-                            <p class="main-text -recipe">Dificuldade: fácil</p>
-                            <button id="recipeSex" class="recipe-button">Ver receita</button>
-                        </div>
+                        <p class="main-text -recipe">Base: vodka</p>
+                        <p class="main-text -recipe">Dificuldade: fácil</p>
+                        <button id="recipeSex" class="recipe-button">Ver receita</button>
                     </div>
-
-                    
-
                 </div>
-            </section>
-            <section class="main-section">
-                <h2 class="main-title -second">Drinks autorais</h2>
-                <p class="main-text">Experimente as receitas enviadas por outros usuários da comunidade.</p>
-                <div class="recipe-cards -autoral">
-                    <div class="recipe-cards-item -autoral">
-                        <div class="recipe-img-card -autoral">
-                            <img id="recipeCeuAzul" src="./assets/img/ceu_azul.png" class="recipe-img">
-                        </div>
-                        <div class="recipe-card-description -autoral">
+
+
+
+            </div>
+        </section>
+        <section class="main-section">
+            <h2 class="main-title -second">Drinks autorais</h2>
+            <p class="main-text">Experimente as receitas enviadas por outros usuários da comunidade.</p>
+            <div class="recipe-cards -autoral">
+                <div class="recipe-cards-item -autoral">
+                    <div class="recipe-img-card -autoral">
+                        <img id="recipeCeuAzul" src="./assets/img/ceu_azul.png" class="recipe-img">
+                    </div>
+                    <div class="recipe-card-description -autoral">
                         <h3 class="main-title -third -autoral">Céu Azul</h3>
-                            <p class="main-text -recipe -autoral">Enviado por Roberta Azevedo</p>
-                            
-                        </div>
-                    </div>
+                        <p class="main-text -recipe -autoral">Enviado por Roberta Azevedo</p>
 
-                    <div class="recipe-cards-item -autoral">
-                        <div class="recipe-img-card -autoral">
-                            <img id="recipeRedBomb" src="./assets/img/red_bomb.png" class="recipe-img">
-                        </div>
-                        <div class="recipe-card-description -autoral">
-                        <h3 class="main-title -third -autoral">Red Bomb</h3>
-                            <p class="main-text -recipe -autoral">Enviado por Marcela Silva</p>
-                            
-                        </div>
-                    </div>
-
-                    <div class="recipe-cards-item -autoral">
-                        <div class="recipe-img-card -autoral">
-                            <img id="recipeNoiteEstrelada" src="./assets/img/noite_estrelada.png" class="recipe-img">
-                        </div>
-                        <div class="recipe-card-description -autoral">
-                        <h3 class="main-title -third -autoral">Noite estrelada</h3>
-                            <p class="main-text -recipe -autoral">Enviado por Pedro Vaz</p>
-                            
-                        </div>
                     </div>
                 </div>
-    
-            </section>
-        </main>
 
-        <div id="recipe-moscowMule" class="modal-container">
-            <div class="modal-header">
-                <h2 class="main-title -second -modal">Moscow Mule</h2>
+                <div class="recipe-cards-item -autoral">
+                    <div class="recipe-img-card -autoral">
+                        <img id="recipeRedBomb" src="./assets/img/red_bomb.png" class="recipe-img">
+                    </div>
+                    <div class="recipe-card-description -autoral">
+                        <h3 class="main-title -third -autoral">Red Bomb</h3>
+                        <p class="main-text -recipe -autoral">Enviado por Marcela Silva</p>
+
+                    </div>
+                </div>
+
+                <div class="recipe-cards-item -autoral">
+                    <div class="recipe-img-card -autoral">
+                        <img id="recipeNoiteEstrelada" src="./assets/img/noite_estrelada.png" class="recipe-img">
+                    </div>
+                    <div class="recipe-card-description -autoral">
+                        <h3 class="main-title -third -autoral">Noite estrelada</h3>
+                        <p class="main-text -recipe -autoral">Enviado por Pedro Vaz</p>
+
+                    </div>
+                </div>
             </div>
-            <div class="modal-content">
-                <button class="close-button">X</button>
-                <h3 class="main-title -third -modal">Ingredientes</h3>
-                    
-                        <p>♦ 1 xícara de açúcar</p>
-                        <p>♦ 1 xícara de água</p>
-                        <p>♦ canela em pau</p>
-                        <p>♦ 2 colheres (sopa) de gengibre ralado</p>
-                        <p>♦ 1 dose de vodka</p>
-                        <p>♦ 1/2 limão</p>
-                        <p>♦ água com gás</p>
-                    
-                    <h3 class="main-title -third -modal">Modo de preparo</h3>
-                    <p class="modal-text">Em uma panela, coloque a xícara de água, açúcar, suco de limão, canela e o gengibre ralado. Misture bem e leve ao fogo baixo.</p>
 
-                    <p class="modal-text">Deixe cozinhar até que a mistura adquira a consistência de xarope. Quando tiver dado o ponto, coe e transfira para uma garrafa de vidro com tampa e leve para geladeira.</p>
-                        
-                    <p class="modal-text">Em uma caneca, coloque 2 doses de 50 ml de xarope de gengibre. Acrescente 1 dose de 50 ml de vodca e gelo à vontade. Misture bem.</p>
+        </section>
+    </main>
 
-                    
+    <div id="recipe-moscowMule" class="modal-container">
 
-            </div>
+        <div class="modal-content">
+
+            <h2 class="main-title -second -modal">Moscow Mule</h2>
+
+            <button class="close-button">X</button>
+            <h3 class="main-title -third -modal">Ingredientes</h3>
+
+            <p class="modal-text">♦ 1 xícara de açúcar</p>
+            <p class="modal-text">♦ 1 xícara de água</p>
+            <p class="modal-text">♦ canela em pau</p>
+            <p class="modal-text">♦ 2 colheres (sopa) de gengibre ralado</p>
+            <p class="modal-text">♦ 1 dose de vodka</p>
+            <p class="modal-text">♦ 1/2 limão</p>
+            <p class="modal-text">♦ água com gás</p>
+
+            <h3 class="main-title -third -modal">Modo de preparo</h3>
+            <p class="modal-text">Em uma panela, coloque a xícara de água, açúcar, suco de limão, canela e o gengibre
+                ralado. Misture bem e leve ao fogo baixo.</p>
+
+            <p class="modal-text">Deixe cozinhar até que a mistura adquira a consistência de xarope. Quando tiver dado o
+                ponto, coe e transfira para uma garrafa de vidro com tampa e leve para geladeira.</p>
+
+            <p class="modal-text">Em uma caneca, coloque 2 doses de 50 ml de xarope de gengibre. Acrescente 1 dose de 50
+                ml de vodca e gelo à vontade. Misture bem.</p>
+
+
 
         </div>
 
-        <div id="recipe-mojito" class="modal-container">
-            <div class="modal-header">
-                <h2 class="main-title -second -modal">Mojito</h2>
-            </div>
-            <div class="modal-content">
-                <button class="close-button">X</button>
-                <h3 class="main-title -third -modal">Ingredientes</h3>
-                    
-                        <p>♦ 1 ramo de hortelã (cerca de 10 folhas)</p>
-                        <p>♦ 1 colher de sopa de açúcar</p>
-                        <p>♦ 60 ml de rum Bacardi</p>
-                        <p>♦ 1 limão (o ideal são 10 ml de suco)</p>
-                        <p>♦ gelo</p>
-                        <p>♦ água com gás</p>
-                       
-                    
-                    <h3 class="main-title -third -modal">Modo de preparo</h3>
-                    <p class="modal-text">No copo, esprema o limão e adicione o e açúcar.  Amasse os três ingredientes moderadamente para evitar amargues.</p>
+    </div>
 
-                    <p class="modal-text">Encha o copo de gelo e adicione o rum e depois a água com gás. Feito isso, com uma colher longa mexa suavemente a bebida e sirva.</p>
-     
-            </div>
+    <div id="recipe-mojito" class="modal-container">
 
-        </div>
+        
 
-        <div id="recipe-sex" class="modal-container">
-            <div class="modal-header">
-                <h2 class="main-title -second -modal">Sex On The Beach</h2>
-            </div>
-            <div class="modal-content">
-                <button class="close-button">X</button>
-                <h3 class="main-title -third -modal">Ingredientes</h3>
-                    
-                        <p>♦ 1 dose de vodka</p>
-                        <p>♦ meia dose de licor de pêssego</p>
-                        <p>♦ 1 dose de suco de laranja</p>
-                        <p>♦ 1 colher de sobremesa de xarope de groselha</p>
-                        <p>♦ gelo em cubos a gosto</p>
-                        <p>♦ gelo picado a gosto</p>
-                       
-                    
-                    <h3 class="main-title -third -modal">Modo de preparo</h3>
-                    <p class="modal-text">Em uma coqueteleira, coloque 4 cubos de gelo e acrescente o suco de laranja e a vodka. Adicione na mistura meia dose de licor de pêssego. Tambe e agite a coqueteleira o tempo que achar necessário para uma boa mistura dos ingredientes.</p>
+        <div class="modal-content">
+            <h2 class="main-title -second -modal">Mojito</h2>
+            <button class="close-button">X</button>
+            <h3 class="main-title -third -modal">Ingredientes</h3>
 
-                    <p class="modal-text">Para servir, adicione uma colher ded xarope de groselha no fundo do copo, em seguida complete com o gelo picado. Acrescente a mistura delicadamente e misture para formar o degradê característico da bebida.</p>
-     
-            </div>
+            <p class="modal-text">♦ 1 ramo de hortelã (cerca de 10 folhas)</p>
+            <p class="modal-text">♦ 1 colher de sopa de açúcar</p>
+            <p class="modal-text">♦ 60 ml de rum Bacardi</p>
+            <p class="modal-text">♦ 1 limão (o ideal são 10 ml de suco)</p>
+            <p class="modal-text">♦ gelo</p>
+            <p class="modal-text">♦ água com gás</p>
+
+
+            <h3 class="main-title -third -modal">Modo de preparo</h3>
+            <p class="modal-text">No copo, esprema o limão e adicione o e açúcar. Amasse os três ingredientes
+                moderadamente para evitar amargues.</p>
+
+            <p class="modal-text">Encha o copo de gelo e adicione o rum e depois a água com gás. Feito isso, com uma
+                colher longa mexa suavemente a bebida e sirva.</p>
 
         </div>
 
-        <div id="recipe-ceuAzul" class="modal-container">
-            <div class="modal-header">
-                <h2 class="main-title -second -modal">Céu Azul</h2>
-            </div>
-            <div class="modal-content">
-                <button class="close-button">X</button>
-                <h3 class="main-title -third -modal">Ingredientes</h3>
-                    
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                       
-                    
-                    <h3 class="main-title -third -modal">Modo de preparo</h3>
-                    <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+    </div>
 
-                    <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-     
-            </div>
+    <div id="recipe-sex" class="modal-container">
 
-        </div>
+        
 
-        <div id="recipe-redBomb" class="modal-container">
-            <div class="modal-header">
-                <h2 class="main-title -second -modal">Céu Azul</h2>
-            </div>
-            <div class="modal-content">
-                <button class="close-button">X</button>
-                <h3 class="main-title -third -modal">Ingredientes</h3>
-                    
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                       
-                    
-                    <h3 class="main-title -third -modal">Modo de preparo</h3>
-                    <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+        <div class="modal-content">
+            <h2 class="main-title -second -modal">Sex On The Beach</h2>
+            <button class="close-button">X</button>
+            <h3 class="main-title -third -modal">Ingredientes</h3>
 
-                    <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-     
-            </div>
+            <p class="modal-text">♦ 1 dose de vodka</p>
+            <p class="modal-text">♦ meia dose de licor de pêssego</p>
+            <p class="modal-text">♦ 1 dose de suco de laranja</p>
+            <p class="modal-text">♦ 1 colher de sobremesa de xarope de groselha</p>
+            <p class="modal-text">♦ gelo em cubos a gosto</p>
+            <p class="modal-text">♦ gelo picado a gosto</p>
+
+
+            <h3 class="main-title -third -modal">Modo de preparo</h3>
+            <p class="modal-text">Em uma coqueteleira, coloque 4 cubos de gelo e acrescente o suco de laranja e a vodka.
+                Adicione na mistura meia dose de licor de pêssego. Tambe e agite a coqueteleira o tempo que achar
+                necessário para uma boa mistura dos ingredientes.</p>
+
+            <p class="modal-text">Para servir, adicione uma colher ded xarope de groselha no fundo do copo, em seguida
+                complete com o gelo picado. Acrescente a mistura delicadamente e misture para formar o degradê
+                característico da bebida.</p>
 
         </div>
 
-        <div id="recipe-noiteEstrelada" class="modal-container">
-            <div class="modal-header">
-                <h2 class="main-title -second -modal">Céu Azul</h2>
-            </div>
-            <div class="modal-content">
-                <button class="close-button">X</button>
-                <h3 class="main-title -third -modal">Ingredientes</h3>
-                    
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                        <p>♦ Lorem ipsum</p>
-                       
-                    
-                    <h3 class="main-title -third -modal">Modo de preparo</h3>
-                    <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+    </div>
 
-                    <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
-     
-            </div>
+    <div id="recipe-ceuAzul" class="modal-container">
+
+        
+
+        <div class="modal-content">
+            <h2 class="main-title -second -modal">Céu Azul</h2>
+            <button class="close-button">X</button>
+            <h3 class="main-title -third -modal">Ingredientes</h3>
+
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+
+
+            <h3 class="main-title -third -modal">Modo de preparo</h3>
+            <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+
+            <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsum</p>
 
         </div>
 
+    </div>
+
+    <div id="recipe-redBomb" class="modal-container">
+
+        
+
+        <div class="modal-content">
+
+            <h2 class="main-title -second -modal">Céu Azul</h2>
+            <button class="close-button">X</button>
+            <h3 class="main-title -third -modal">Ingredientes</h3>
+
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
 
 
-        <script src="./assets/scripts/script.js"></script>
-    </body>
+            <h3 class="main-title -third -modal">Modo de preparo</h3>
+            <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+
+            <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+
+        </div>
+
+    </div>
+
+    <div id="recipe-noiteEstrelada" class="modal-container">
+
+        
+
+        <div class="modal-content">
+            <h2 class="main-title -second -modal">Céu Azul</h2>
+            <button class="close-button">X</button>
+            <h3 class="main-title -third -modal">Ingredientes</h3>
+
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+            <p class="modal-text">♦ Lorem ipsum</p>
+
+
+            <h3 class="main-title -third -modal">Modo de preparo</h3>
+            <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+
+            <p class="modal-text">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+                ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
 </html>

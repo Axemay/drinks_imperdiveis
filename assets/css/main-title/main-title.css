@@ -13,10 +13,14 @@
     text-shadow: none;
 }
 
-.main-title.second.-modal{
 
-    justify-content: baseline;
+.main-title.-second.-modal{
 
+    /* text-align: left; */
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    line-height: 4rem;
+    border-bottom: 5px dotted #f1f1f1;
 }
 
 
@@ -35,9 +39,6 @@
 .main-title.-third.-modal{
     padding: 15px 0;
     
-}
-
-.main-title.-third.-modal{
 }
 
 

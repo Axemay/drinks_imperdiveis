@@ -1,13 +1,13 @@
 .recipe-cards-item{
     background: #fff;
-    box-shadow: 0.8rem 1rem #8D0606;
+    box-shadow: 0.4rem 0.3rem #8D0606;
     transition: 300ms;
     
     /* #aca6a6; */
 }
 
 .recipe-cards-item:hover{
-    box-shadow: 0.8rem 1rem  #e28383;
+    box-shadow: 0.6rem 0.6rem  #e28383;
 }
 
 .recipe-img-card{
@@ -31,7 +31,7 @@
     color: #fff;
     padding: 1rem 1.25rem ;
     border-radius: 0.30rem;
-    transition: 300ms;
+    transition: 800ms;
     cursor: pointer;    
     border: none;
     
@@ -57,5 +57,5 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    transition: 300ms;
+    transition: 800ms;
 }
